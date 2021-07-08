@@ -1,0 +1,31 @@
+html {
+    /*font-size: 10px;  px means 'pixels': the base font size is now 10 pixels high  */
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: #f5f8c8;
+  }
+  
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+  
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(0, 0, 0);
+  }
+  
