@@ -9,36 +9,27 @@ html{
 body{
     width: 600px;
     margin: 0 auto;
-    background-color:white;
     padding: 0 30px 30px 30px;
-    border: 5px solid #E5CAC1;
 }
 
-h1{
+h2{
     margin: 0;
     padding: 20px 0; /* to set h1's location, must set margin:0 first!*/
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-p,li,a{
+img{
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+p, a{
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
     font-family: 'Oswald', sans-serif;
-}
-
-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-img.coda{
-    max-width: 5%;
-    max-height: 5%;
-    display: block;
-    margin: 0 auto;
 }
