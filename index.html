@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <meta name="author" content="Kerstin Hung">
+    <title>Kivi Hung</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,26 +14,50 @@
 </head>
 
 <body>
-    <h1>Henlo!</h1>
-    <img src="images/orangeMonster.png" alt="test profile">
+    <h1>Kivi Hung</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <form>
+        <input type="search" name="q" placeholder="Search query">
+        <input type="submit" value="Go!">
+    </form>
+
+    <main>
+        <article>
+            <img src="images/orangeMonster.png" alt="test profile">
+            <p>
+                an orange monster
+                <a href="https://www.instagram.com/p/CQBraTEgsr9/?utm_source=ig_web_copy_link" title="image source" target="_blank">
+                    <img class="coda" src="images/haskai.png">
+                </a>
+            </p>
+            <a href="https://www.instagram.com/kivi_hung/" title="kivi_hung" target="_blank">there is her instagram</a>
+            <ul>
+                <li>she walks</li>
+                <li>she jumps</li>
+                <li>she is cute</li>
+            </ul>
+        </article>
     
-    <p>
-        an orange monster
-        <a href="https://www.instagram.com/p/CQBraTEgsr9/?utm_source=ig_web_copy_link" title="image source" target="_blank">
-            <img class="coda" src="images/haskai.png">
-        </a>
-    </p>
-
-    <a href="https://www.instagram.com/kivi_hung/" title="kivi_hung" target="_blank">there is her instagram</a>
-    <ul>
-        <li>she walks</li>
-        <li>she jumps</li>
-        <li>she is cute</li>
-    </ul>
-
-    <p>Visit my <a href="gallery/gallery.html">GALLERY</a>!</p>
-
-    <button>Change user</button>
+        <aside>
+            <h2>Related</h2>
+            <ul>
+                <li>test1</li>
+                <li>test2</li>
+                <li>test3</li>
+                <li>test4</li>
+            </ul>
+        </aside>
+    </main>
+    
+    <footer>
+        <p>©Copyright 2022 by kivi_hung. All rights reversed.</p>
+    </footer>
 
     <script src="scripts/main.js"></script>
 </body>
